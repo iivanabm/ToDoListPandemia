@@ -2,7 +2,6 @@ import React from 'react';
 
 const Form = ({ setInputText, todos, setTodos, inputText }) => {
   const inputTextHandler = (e) => {
-    console.log(e.target.value);
     setInputText(e.target.value);
   };
 
@@ -21,7 +20,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
       <button onClick={submitTodoHandler} className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
       </button>
-      <div className="cleanAll">
+      <div className="limpar-tudo">
         <button>Limpar tudo</button>
       </div>
     </form>
