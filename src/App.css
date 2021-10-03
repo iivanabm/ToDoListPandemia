@@ -109,7 +109,7 @@ select {
 }
 
 /* Custom Select */
-.select {
+.cleanAll {
   margin: 1rem;
   position: relative;
   overflow: hidden;
