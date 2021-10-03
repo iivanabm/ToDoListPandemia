@@ -39,13 +39,13 @@ form button:hover {
 }
 .todo-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 .todo-list {
-  min-width: 30%;
-  list-style: none;
+  display: flex;
+  width: 50%;
+  height: 10%;
 }
 
 .todo {
@@ -55,7 +55,7 @@ form button:hover {
   color: black;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   transition: all 1s ease;
 }
 .filter-todo {
@@ -78,7 +78,9 @@ form button:hover {
   background: rgb(11, 212, 162);
 }
 .todo-item {
-  padding: 0rem 0.5rem;
+  width: 150px;
+  padding: 70px auto;
+  text-align: center;
 }
 
 .fa-trash,
